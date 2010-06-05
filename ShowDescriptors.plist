@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>stargate.universe</key>
+	<dict>
+		<key>Name</key>
+		<string>Stargate Universe</string>
+		<key>LargeImage</key>
+		<string>stargate.universe.jpg</string>
+	</dict>
+	<key>bones</key>
+	<dict>
+		<key>Name</key>
+		<string>Bones</string>
+		<key>LargeImage</key>
+		<string>bones.jpg</string>
+	</dict>
+	<key>v.2009</key>
+	<dict>
+		<key>Name</key>
+		<string>V (2009)</string>
+		<key>LargeImage</key>
+		<string>v.2009.jpg</string>
+	</dict>
+	<key>fringe</key>
+	<dict>
+		<key>Name</key>
+		<string>Fringe</string>
+		<key>LargeImage</key>
+		<string>fringe.jpg</string>
+	</dict>
+	<key>ncis.los.angeles</key>
+	<dict>
+		<key>Name</key>
+		<string>NCIS: Los Angeles</string>
+		<key>LargeImage</key>
+		<string>ncis.los.angeles.png</string>
+	</dict>
+	<key>star.wars.the.clone.wars</key>
+	<dict>
+		<key>Name</key>
+		<string>Star Wars - The Clone Wars</string>
+		<key>LargeImage</key>
+		<string>star.wars.the.clone.wars.jpg</string>
+	</dict>
+	<key>the.daily.show</key>
+	<dict>
+		<key>Name</key>
+		<string>The Daily Show</string>
+		<key>LargeImage</key>
+		<string>the.daily.show.jpg</string>
+	</dict>
+	<key>lost</key>
+	<dict>
+		<key>Name</key>
+		<string>Lost</string>
+		<key>LargeImage</key>
+		<string>lost.jpg</string>
+	</dict>
+	<key>csi.miami</key>
+	<dict>
+		<key>Name</key>
+		<string>CSI Miami</string>
+		<key>LargeImage</key>
+		<string>csi.miami.png</string>
+	</dict>
+</dict>
+</plist>

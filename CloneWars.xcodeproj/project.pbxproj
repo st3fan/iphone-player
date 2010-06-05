@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CloneWarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CloneWarsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* CloneWarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CloneWarsViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CloneWarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CloneWarsViewController.m */; };
+		F850B66C1171248D008157AF /* LoadEpisodeInfoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F850B66B1171248D008157AF /* LoadEpisodeInfoOperation.m */; };
+		F856803A117B8F0D0039E14F /* lost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8568039117B8F0D0039E14F /* lost.jpg */; };
+		F856804E117B936D0039E14F /* csi.miami.png in Resources */ = {isa = PBXBuildFile; fileRef = F856804D117B936D0039E14F /* csi.miami.png */; };
+		F8568059117B93B00039E14F /* ncis.los.angeles.png in Resources */ = {isa = PBXBuildFile; fileRef = F8568058117B93B00039E14F /* ncis.los.angeles.png */; };
+		F856807B117B94FA0039E14F /* AllShowsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F856807A117B94FA0039E14F /* AllShowsTableViewController.m */; };
+		F85680A3117B97EB0039E14F /* ObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F85680A2117B97EB0039E14F /* ObjectCache.m */; };
+		F8595DE911700DDA00BDD21C /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8595DE811700DDA00BDD21C /* ShowView.m */; };
+		F8595E3A1170124300BDD21C /* EpisodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8595E381170124300BDD21C /* EpisodesViewController.m */; };
+		F8595E3B1170124300BDD21C /* EpisodesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8595E391170124300BDD21C /* EpisodesViewController.xib */; };
+		F8595EB0117018D400BDD21C /* EpisodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8595EAF117018D400BDD21C /* EpisodeTableViewCell.m */; };
+		F886D29B116AC2B40047850E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F886D29A116AC2B40047850E /* MediaPlayer.framework */; };
+		F886D2D6116ACB880047850E /* ShowsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F886D2D5116ACB880047850E /* ShowsTableViewController.m */; };
+		F886D304116AD0040047850E /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F886D303116AD0040047850E /* MovieViewController.m */; };
+		F8FFCA2B116FD111003144CF /* ShowDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFCA2A116FD111003144CF /* ShowDatabase.m */; };
+		F8FFCA2E116FD155003144CF /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFCA2D116FD155003144CF /* Show.m */; };
+		F8FFCA31116FD15B003144CF /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFCA30116FD15B003144CF /* Episode.m */; };
+		F8FFCA33116FD2F4003144CF /* ShowDescriptors.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCA32116FD2F4003144CF /* ShowDescriptors.plist */; };
+		F8FFCA52116FF1B4003144CF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFCA51116FF1B4003144CF /* RegexKitLite.m */; };
+		F8FFCA56116FF32A003144CF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FFCA55116FF32A003144CF /* libicucore.dylib */; };
+		F8FFCAD3116FFB18003144CF /* star.wars.the.clone.wars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCAC9116FFB18003144CF /* star.wars.the.clone.wars.jpg */; };
+		F8FFCAD4116FFB18003144CF /* nics.los.angelos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACA116FFB18003144CF /* nics.los.angelos.jpg */; };
+		F8FFCAD5116FFB18003144CF /* south.park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACB116FFB18003144CF /* south.park.jpg */; };
+		F8FFCAD6116FFB18003144CF /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACC116FFB18003144CF /* 24.jpg */; };
+		F8FFCAD7116FFB18003144CF /* bones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACD116FFB18003144CF /* bones.jpg */; };
+		F8FFCAD8116FFB18003144CF /* stargate.universe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACE116FFB18003144CF /* stargate.universe.jpg */; };
+		F8FFCAD9116FFB18003144CF /* v.2009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCACF116FFB18003144CF /* v.2009.jpg */; };
+		F8FFCADA116FFB18003144CF /* ncis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCAD0116FFB18003144CF /* ncis.jpg */; };
+		F8FFCADB116FFB18003144CF /* fringe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCAD1116FFB18003144CF /* fringe.jpg */; };
+		F8FFCADC116FFB18003144CF /* the.daily.show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCAD2116FFB18003144CF /* the.daily.show.jpg */; };
+		F8FFCAFA116FFF81003144CF /* ShowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFCAF8116FFF81003144CF /* ShowsViewController.m */; };
+		F8FFCAFB116FFF81003144CF /* ShowsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FFCAF9116FFF81003144CF /* ShowsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CloneWarsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneWarsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CloneWarsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloneWarsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CloneWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* CloneWarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CloneWarsViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CloneWarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneWarsViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CloneWarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloneWarsViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CloneWars_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneWars_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CloneWars-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CloneWars-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F850B66A1171248D008157AF /* LoadEpisodeInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadEpisodeInfoOperation.h; sourceTree = "<group>"; };
+		F850B66B1171248D008157AF /* LoadEpisodeInfoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadEpisodeInfoOperation.m; sourceTree = "<group>"; };
+		F8568039117B8F0D0039E14F /* lost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lost.jpg; sourceTree = "<group>"; };
+		F856804D117B936D0039E14F /* csi.miami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csi.miami.png; sourceTree = "<group>"; };
+		F8568058117B93B00039E14F /* ncis.los.angeles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ncis.los.angeles.png; sourceTree = "<group>"; };
+		F8568079117B94FA0039E14F /* AllShowsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllShowsTableViewController.h; sourceTree = "<group>"; };
+		F856807A117B94FA0039E14F /* AllShowsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllShowsTableViewController.m; sourceTree = "<group>"; };
+		F85680A1117B97EB0039E14F /* ObjectCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectCache.h; sourceTree = "<group>"; };
+		F85680A2117B97EB0039E14F /* ObjectCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectCache.m; sourceTree = "<group>"; };
+		F8595DE711700DDA00BDD21C /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		F8595DE811700DDA00BDD21C /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		F8595E371170124300BDD21C /* EpisodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodesViewController.h; sourceTree = "<group>"; };
+		F8595E381170124300BDD21C /* EpisodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodesViewController.m; sourceTree = "<group>"; };
+		F8595E391170124300BDD21C /* EpisodesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodesViewController.xib; sourceTree = "<group>"; };
+		F8595EAE117018D400BDD21C /* EpisodeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeTableViewCell.h; sourceTree = "<group>"; };
+		F8595EAF117018D400BDD21C /* EpisodeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodeTableViewCell.m; sourceTree = "<group>"; };
+		F886D29A116AC2B40047850E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F886D2D4116ACB880047850E /* ShowsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsTableViewController.h; sourceTree = "<group>"; };
+		F886D2D5116ACB880047850E /* ShowsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsTableViewController.m; sourceTree = "<group>"; };
+		F886D302116AD0040047850E /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		F886D303116AD0040047850E /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		F8FFCA29116FD111003144CF /* ShowDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDatabase.h; sourceTree = "<group>"; };
+		F8FFCA2A116FD111003144CF /* ShowDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDatabase.m; sourceTree = "<group>"; };
+		F8FFCA2C116FD155003144CF /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
+		F8FFCA2D116FD155003144CF /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
+		F8FFCA2F116FD15B003144CF /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
+		F8FFCA30116FD15B003144CF /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
+		F8FFCA32116FD2F4003144CF /* ShowDescriptors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShowDescriptors.plist; sourceTree = "<group>"; };
+		F8FFCA50116FF1B4003144CF /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		F8FFCA51116FF1B4003144CF /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		F8FFCA55116FF32A003144CF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F8FFCAC9116FFB18003144CF /* star.wars.the.clone.wars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.wars.the.clone.wars.jpg; sourceTree = "<group>"; };
+		F8FFCACA116FFB18003144CF /* nics.los.angelos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nics.los.angelos.jpg; sourceTree = "<group>"; };
+		F8FFCACB116FFB18003144CF /* south.park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = south.park.jpg; sourceTree = "<group>"; };
+		F8FFCACC116FFB18003144CF /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		F8FFCACD116FFB18003144CF /* bones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bones.jpg; sourceTree = "<group>"; };
+		F8FFCACE116FFB18003144CF /* stargate.universe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stargate.universe.jpg; sourceTree = "<group>"; };
+		F8FFCACF116FFB18003144CF /* v.2009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = v.2009.jpg; sourceTree = "<group>"; };
+		F8FFCAD0116FFB18003144CF /* ncis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ncis.jpg; sourceTree = "<group>"; };
+		F8FFCAD1116FFB18003144CF /* fringe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fringe.jpg; sourceTree = "<group>"; };
+		F8FFCAD2116FFB18003144CF /* the.daily.show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the.daily.show.jpg; sourceTree = "<group>"; };
+		F8FFCAF7116FFF81003144CF /* ShowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsViewController.h; sourceTree = "<group>"; };
+		F8FFCAF8116FFF81003144CF /* ShowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsViewController.m; sourceTree = "<group>"; };
+		F8FFCAF9116FFF81003144CF /* ShowsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F886D29B116AC2B40047850E /* MediaPlayer.framework in Frameworks */,
+				F8FFCA56116FF32A003144CF /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8FFCA50116FF1B4003144CF /* RegexKitLite.h */,
+				F8FFCA51116FF1B4003144CF /* RegexKitLite.m */,
+				1D3623240D0F684500981E51 /* CloneWarsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CloneWarsAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CloneWarsViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CloneWarsViewController.m */,
+				F886D2D4116ACB880047850E /* ShowsTableViewController.h */,
+				F886D2D5116ACB880047850E /* ShowsTableViewController.m */,
+				F886D302116AD0040047850E /* MovieViewController.h */,
+				F886D303116AD0040047850E /* MovieViewController.m */,
+				F8FFCA29116FD111003144CF /* ShowDatabase.h */,
+				F8FFCA2A116FD111003144CF /* ShowDatabase.m */,
+				F8FFCA2C116FD155003144CF /* Show.h */,
+				F8FFCA2D116FD155003144CF /* Show.m */,
+				F8FFCA2F116FD15B003144CF /* Episode.h */,
+				F8FFCA30116FD15B003144CF /* Episode.m */,
+				F8FFCAF7116FFF81003144CF /* ShowsViewController.h */,
+				F8FFCAF8116FFF81003144CF /* ShowsViewController.m */,
+				F8FFCAF9116FFF81003144CF /* ShowsViewController.xib */,
+				F8595DE711700DDA00BDD21C /* ShowView.h */,
+				F8595DE811700DDA00BDD21C /* ShowView.m */,
+				F8595E371170124300BDD21C /* EpisodesViewController.h */,
+				F8595E381170124300BDD21C /* EpisodesViewController.m */,
+				F8595E391170124300BDD21C /* EpisodesViewController.xib */,
+				F8595EAE117018D400BDD21C /* EpisodeTableViewCell.h */,
+				F8595EAF117018D400BDD21C /* EpisodeTableViewCell.m */,
+				F850B66A1171248D008157AF /* LoadEpisodeInfoOperation.h */,
+				F850B66B1171248D008157AF /* LoadEpisodeInfoOperation.m */,
+				F8568079117B94FA0039E14F /* AllShowsTableViewController.h */,
+				F856807A117B94FA0039E14F /* AllShowsTableViewController.m */,
+				F85680A1117B97EB0039E14F /* ObjectCache.h */,
+				F85680A2117B97EB0039E14F /* ObjectCache.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CloneWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F886D29A116AC2B40047850E /* MediaPlayer.framework */,
+				F8FFCA55116FF32A003144CF /* libicucore.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CloneWars_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8568058117B93B00039E14F /* ncis.los.angeles.png */,
+				F856804D117B936D0039E14F /* csi.miami.png */,
+				F8568039117B8F0D0039E14F /* lost.jpg */,
+				F8FFCAC9116FFB18003144CF /* star.wars.the.clone.wars.jpg */,
+				F8FFCACA116FFB18003144CF /* nics.los.angelos.jpg */,
+				F8FFCACB116FFB18003144CF /* south.park.jpg */,
+				F8FFCACC116FFB18003144CF /* 24.jpg */,
+				F8FFCACD116FFB18003144CF /* bones.jpg */,
+				F8FFCACE116FFB18003144CF /* stargate.universe.jpg */,
+				F8FFCACF116FFB18003144CF /* v.2009.jpg */,
+				F8FFCAD0116FFB18003144CF /* ncis.jpg */,
+				F8FFCAD1116FFB18003144CF /* fringe.jpg */,
+				F8FFCAD2116FFB18003144CF /* the.daily.show.jpg */,
+				2899E5210DE3E06400AC0155 /* CloneWarsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CloneWars-Info.plist */,
+				F8FFCA32116FD2F4003144CF /* ShowDescriptors.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CloneWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CloneWars" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloneWars;
+			productName = CloneWars;
+			productReference = 1D6058910D05DD3D006BFB54 /* CloneWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CloneWars" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CloneWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* CloneWarsViewController.xib in Resources */,
+				F8FFCA33116FD2F4003144CF /* ShowDescriptors.plist in Resources */,
+				F8FFCAD3116FFB18003144CF /* star.wars.the.clone.wars.jpg in Resources */,
+				F8FFCAD4116FFB18003144CF /* nics.los.angelos.jpg in Resources */,
+				F8FFCAD5116FFB18003144CF /* south.park.jpg in Resources */,
+				F8FFCAD6116FFB18003144CF /* 24.jpg in Resources */,
+				F8FFCAD7116FFB18003144CF /* bones.jpg in Resources */,
+				F8FFCAD8116FFB18003144CF /* stargate.universe.jpg in Resources */,
+				F8FFCAD9116FFB18003144CF /* v.2009.jpg in Resources */,
+				F8FFCADA116FFB18003144CF /* ncis.jpg in Resources */,
+				F8FFCADB116FFB18003144CF /* fringe.jpg in Resources */,
+				F8FFCADC116FFB18003144CF /* the.daily.show.jpg in Resources */,
+				F8FFCAFB116FFF81003144CF /* ShowsViewController.xib in Resources */,
+				F8595E3B1170124300BDD21C /* EpisodesViewController.xib in Resources */,
+				F856803A117B8F0D0039E14F /* lost.jpg in Resources */,
+				F856804E117B936D0039E14F /* csi.miami.png in Resources */,
+				F8568059117B93B00039E14F /* ncis.los.angeles.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CloneWarsAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CloneWarsViewController.m in Sources */,
+				F886D2D6116ACB880047850E /* ShowsTableViewController.m in Sources */,
+				F886D304116AD0040047850E /* MovieViewController.m in Sources */,
+				F8FFCA2B116FD111003144CF /* ShowDatabase.m in Sources */,
+				F8FFCA2E116FD155003144CF /* Show.m in Sources */,
+				F8FFCA31116FD15B003144CF /* Episode.m in Sources */,
+				F8FFCA52116FF1B4003144CF /* RegexKitLite.m in Sources */,
+				F8FFCAFA116FFF81003144CF /* ShowsViewController.m in Sources */,
+				F8595DE911700DDA00BDD21C /* ShowView.m in Sources */,
+				F8595E3A1170124300BDD21C /* EpisodesViewController.m in Sources */,
+				F8595EB0117018D400BDD21C /* EpisodeTableViewCell.m in Sources */,
+				F850B66C1171248D008157AF /* LoadEpisodeInfoOperation.m in Sources */,
+				F856807B117B94FA0039E14F /* AllShowsTableViewController.m in Sources */,
+				F85680A3117B97EB0039E14F /* ObjectCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloneWars_Prefix.pch;
+				INFOPLIST_FILE = "CloneWars-Info.plist";
+				PRODUCT_NAME = CloneWars;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloneWars_Prefix.pch;
+				INFOPLIST_FILE = "CloneWars-Info.plist";
+				PRODUCT_NAME = CloneWars;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CloneWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CloneWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
